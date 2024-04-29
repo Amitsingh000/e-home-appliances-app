@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import { resolve } from "path";
 
 export default defineConfig({
-  base:'/e-home-appliances-app',
+  base:'/e-home-appliances-app/',
   build: {
     rollupOptions: {
       input: {
